@@ -1,4 +1,4 @@
-# IOB Electrophysiology & Channels - Analysis Bootcamp
+# 2025 IOB Electrophysiology & Channels - Analysis Bootcamp
 
 Welcome to the Analysis Bootcamp for the IOB ePhys and Channels PhD course (Fall 2025). This repository contains materials, example data, and Jupyter notebooks to help you learn how to analyze electrophysiology data using Python.
 
@@ -19,7 +19,7 @@ This folder contains the following materials:
 - **data_example/** - Contains example HDF5 files:
   - `Chevalier_data_human_retina_example.hdf5` - Sample human retina recording
   
-- **patch_data_2024/** - Contains patch-clamp example files:
+- **patch_data_2024/** - Contains patch-clamp example files from last year's course:
   - `CheRiff current.abf` - Patch-clamp current recordings
   - `CheRiff test.xlsx` - Excel file with experimental parameters
   - `Spike recording.abf` - Example spike recording
