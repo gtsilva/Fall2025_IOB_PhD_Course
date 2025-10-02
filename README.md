@@ -7,22 +7,25 @@ Welcome to the Analysis Bootcamp for the IOB ePhys and Channels PhD course (Fall
 This folder contains the following materials:
 
 ### Notebooks
-- **Day5.ipynb** - Main tutorial notebook covering:
+- **Day5_Introduction.ipynb** - Main tutorial notebook with complete examples covering:
   - Loading electrophysiology data (HDF5 and ABF formats)
   - Signal processing and filtering
-  - Spike detection
+  - Spike detection and visualization
   - Creating animations and audio/video from recordings
+  
+- **Day5_Your_Analysis.ipynb** - Practice notebook for you to work on your own analysis
 
 ### Data
 - **data_example/** - Contains example HDF5 files:
   - `Chevalier_data_human_retina_example.hdf5` - Sample human retina recording
   
-- **patch_data_2024/** - Contains additional example files:
+- **patch_data_2024/** - Contains patch-clamp example files:
   - `CheRiff current.abf` - Patch-clamp current recordings
   - `CheRiff test.xlsx` - Excel file with experimental parameters
   - `Spike recording.abf` - Example spike recording
 
 ### Media Files
+Example outputs from the tutorial notebook:
 - `Juxta_Som_Human_retina_audio.wav` - Audio output example
 - `Juxta_Som_Human_retina_video.mp4` - Video visualization example
 - `Juxta_Som_Human_retina_merge.mp4` - Merged audio+video example
@@ -81,11 +84,11 @@ After installing Anaconda, you need to install additional packages required for 
 ### For Mac:
 
 1. Open **Terminal**
-2. Navigate to this folder:
+2. Navigate to the Analysis_bootcamp folder:
    ```bash
-   cd "/Users/gts/Library/CloudStorage/GoogleDrive-guilherme.silva@iob.ch/My Drive/Courses/IOB ePhys and Channels - PhD course Fall 2025/Analysis_bootcamp"
+   cd /path/to/your/Analysis_bootcamp
    ```
-   Or navigate to wherever you downloaded/saved this folder.
+   **Tip:** You can drag the folder from Finder into Terminal to automatically type the path.
 
 3. Install the required packages:
    ```bash
@@ -96,11 +99,11 @@ After installing Anaconda, you need to install additional packages required for 
 ### For Windows:
 
 1. Open **Anaconda Prompt**
-2. Navigate to this folder:
+2. Navigate to the Analysis_bootcamp folder:
    ```bash
-   cd "PATH\TO\YOUR\FOLDER\Analysis_bootcamp"
+   cd C:\path\to\your\Analysis_bootcamp
    ```
-   (Replace `PATH\TO\YOUR\FOLDER` with the actual path where you saved this folder)
+   (Replace with the actual path where you saved this folder)
 
 3. Install the required packages:
    ```bash
@@ -117,9 +120,9 @@ After installing Anaconda, you need to install additional packages required for 
 ### For Mac:
 
 1. Open **Terminal**
-2. Navigate to this folder (if you're not already there):
+2. Navigate to the Analysis_bootcamp folder (if you're not already there):
    ```bash
-   cd "/Users/gts/Library/CloudStorage/GoogleDrive-guilherme.silva@iob.ch/My Drive/Courses/IOB ePhys and Channels - PhD course Fall 2025/Analysis_bootcamp"
+   cd /path/to/your/Analysis_bootcamp
    ```
 
 3. Launch Jupyter Notebook:
@@ -128,14 +131,14 @@ After installing Anaconda, you need to install additional packages required for 
    ```
 
 4. Your default web browser will open automatically showing the Jupyter interface
-5. Click on **Day1.ipynb** to open the notebook
+5. Click on **Day5_Introduction.ipynb** to open the tutorial notebook
 
 ### For Windows:
 
 1. Open **Anaconda Prompt**
-2. Navigate to this folder:
+2. Navigate to the Analysis_bootcamp folder:
    ```bash
-   cd "PATH\TO\YOUR\FOLDER\Analysis_bootcamp"
+   cd C:\path\to\your\Analysis_bootcamp
    ```
 
 3. Launch Jupyter Notebook:
@@ -144,7 +147,7 @@ After installing Anaconda, you need to install additional packages required for 
    ```
 
 4. Your default web browser will open automatically showing the Jupyter interface
-5. Click on **Day1.ipynb** to open the notebook
+5. Click on **Day5_Introduction.ipynb** to open the tutorial notebook
 
 ---
 
@@ -170,7 +173,7 @@ Once you have the notebook open in your browser:
 
 ## 📚 What You'll Learn
 
-The **Day5.ipynb** notebook covers:
+The **Day5_Introduction.ipynb** notebook covers:
 
 1. **Loading electrophysiology data** from HDF5 and ABF files
 2. **Visualizing raw traces** using matplotlib
@@ -179,6 +182,8 @@ The **Day5.ipynb** notebook covers:
 5. **Creating animations** of your data
 6. **Generating audio** from spike recordings
 7. **Merging audio and video** for presentations
+
+After completing the introduction notebook, use **Day5_Your_Analysis.ipynb** to practice on your own data or explore the examples further.
 
 ---
 
