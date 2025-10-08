@@ -1,6 +1,6 @@
 # 2025 IOB Electrophysiology & Channels - Analysis Bootcamp
 
-Welcome to the Analysis Bootcamp for the IOB ePhys and Channels PhD course (Fall 2025). This repository contains materials, example data, and Jupyter notebooks to help you learn how to analyze electrophysiology data using Python.
+Welcome to the Analysis Bootcamp for the IOB ePhys and Channels PhD course (Fall 2025). This repository contains comprehensive materials, example datasets, and step-by-step Jupyter notebooks to teach you how to analyze electrophysiology data using Python. You'll learn to work with both HDF5 files (retina recordings) and ABF files (patch-clamp data), perform spike detection, create visualizations, and generate multimedia outputs from your recordings.
 
 ## 📂 Contents
 
@@ -12,23 +12,30 @@ This folder contains the following materials:
   - Signal processing and filtering
   - Spike detection and visualization
   - Creating animations and audio/video from recordings
+  - Working with human retina juxtacellular recordings
   
-- **Day5_Your_Analysis.ipynb** - Practice notebook for you to work on your own analysis
+- **Day5_Your_Analysis.ipynb** - Practice notebook for you to work on your own analysis (exercises to complete)
+
+- **Day5_Analysis_SolvedProblems.ipynb** - Solutions notebook with complete answers to the practice exercises:
+  - Loading and analyzing patch-clamp data from the patch_data_2024 folder
+  - Working with ABF files (current clamp and voltage clamp recordings)
+  - Analyzing spike recordings from HEK cells
+  - Signal processing and spike detection on patch-clamp data
 
 ### Data
-- **data_example/** - Contains example HDF5 files:
-  - `Chevalier_data_human_retina_example.hdf5` - Sample human retina recording
+- **data_example/** - Contains example HDF5 files for the main tutorial:
+  - `Chevalier_data_human_retina_example.hdf5` - Human retina juxtacellular recording (used in Day5_Introduction.ipynb)
   
-- **patch_data_2024/** - Contains patch-clamp example files from last year's course:
-  - `CheRiff current.abf` - Patch-clamp current recordings
-  - `CheRiff test.xlsx` - Excel file with experimental parameters
-  - `Spike recording.abf` - Example spike recording
+- **patch_data_2024/** - Contains patch-clamp ABF files for practice exercises:
+  - `Spike recording.abf` - Current clamp recording from spiking HEK cells (used in practice exercises)
+  - `CheRiff current.abf` - Voltage clamp recording with optogenetic stimulation
+  - `CheRiff test.xlsx` - Excel file with experimental parameters and metadata
 
 ### Media Files
-Example outputs from the tutorial notebook:
-- `Juxta_Som_Human_retina_audio.wav` - Audio output example
-- `Juxta_Som_Human_retina_video.mp4` - Video visualization example
-- `Juxta_Som_Human_retina_merge.mp4` - Merged audio+video example
+Example outputs generated from the Day5_Introduction.ipynb tutorial demonstrating visualization techniques:
+- `Juxta_Som_Human_retina_audio.wav` - Audio representation of spike activity (spikes converted to sound)
+- `Juxta_Som_Human_retina_video.mp4` - Animated visualization of the electrophysiology recording
+- `Juxta_Som_Human_retina_merge.mp4` - Combined audio-video output showing synchronized spike activity
 
 ---
 
@@ -173,17 +180,29 @@ Once you have the notebook open in your browser:
 
 ## 📚 What You'll Learn
 
-The **Day5_Introduction.ipynb** notebook covers:
+### Learning Path
 
-1. **Loading electrophysiology data** from HDF5 and ABF files
-2. **Visualizing raw traces** using matplotlib
-3. **Filtering signals** with Bessel filters
-4. **Detecting spikes** using peak detection algorithms
-5. **Creating animations** of your data
-6. **Generating audio** from spike recordings
-7. **Merging audio and video** for presentations
+**1. Start with Day5_Introduction.ipynb** (Main Tutorial)
+   - Loading electrophysiology data from HDF5 and ABF files
+   - Visualizing raw traces using matplotlib
+   - Filtering signals with Bessel filters
+   - Detecting spikes using peak detection algorithms
+   - Creating animations of your data
+   - Generating audio from spike recordings
+   - Merging audio and video for presentations
+   - Working with human retina juxtacellular recordings
 
-After completing the introduction notebook, use **Day5_Your_Analysis.ipynb** to practice on your own data or explore the examples further.
+**2. Practice with Day5_Your_Analysis.ipynb** (Your Turn!)
+   - Apply what you learned to analyze patch-clamp data
+   - Work through exercises at your own pace
+   - Explore the ABF files in the patch_data_2024 folder
+   - Analyze current clamp and voltage clamp recordings
+
+**3. Check Day5_Analysis_SolvedProblems.ipynb** (Solutions)
+   - See complete solutions to all practice exercises
+   - Learn best practices for patch-clamp data analysis
+   - Compare your approach with the provided solutions
+   - Understand spike detection in HEK cell recordings
 
 ---
 
